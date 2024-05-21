@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>About Me</title>
+<meta charset="utf-8">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-color: black;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 25%;
+  font-size: 20px;
+  height: 800px; /* only for demonstration, should be removed */
+  background:  #b3dee2;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 75%;
+  font-color: black;
+  font-size: 20px;
+  background-color:  #ffffff;
+  height: 800px; /* only for demonstration, should be removed */
+}
+
+  
+  a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: green;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: 500%;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <a href="home-boundlesscapabilities.html"><img src="logo.jpg" style = "float:right;width:125px;height:125px"></a>
+  <h2>ABOUT ME: BOUNDLESS CAPABILITIES</h2>
+
+</header>
+
+<section>
+  <nav>
+    <ul>
+    
+      <li><a style="text-decoration:none;" href="home-boundlesscapabilities.html">- HOME </a></li>
+<br>
+	<li><a style="text-decoration:none;" href="tips_advice-boundlesscapabilities.html">- TIPS & ADVICE </a> </li>
+<br>
+	<li><a style="text-decoration:none;" href="holidays-boundlesscapabilities.html">- HOLIDAYS </a></li>
+<br>
+	<li><a style="text-decoration:none;" href="experiences-boundlesscapabilities.html">- EXPERIENCES </a></li>
+<br>
+	<li><a style="text-decoration:none;" href="gallery-boundlesscapabilities.html">- GALLERY </a></li>
+<br>
+	<li><a style="text-decoration:none;" href="about_me-boundlesscapabilities.html">- ABOUT ME </a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <p align="center" >This page is about me and my reason for creating this website. </p>
+	<img src="aboutme.png" style = "float:right;width:125px;height:125px">
+    <p align="center" >My name is Avika Shah, and I was born in 2003. My family 
+consists of me, my two brothers (one twin and one three years older than 
+me), my mother and father.</p>
+    <p align="center" >I got diagnosed with the disability of Cerebral Palsy Ataxia (in 2013, when I had 
+just turned ten years old), which means I have difficulty with my balance and 
+coordination.</p><p>I also have trouble walking and doing small movements with my hands. </p>
+    <p align="center" >I have many reasons for creating this website. I thought it would be good for 
+different people to know that people with disabilities can do many different 
+activities. I hope to inspire people to do many things they think are impossible. 
+Mainly, I want to explain and tell people that people with any disability can do 
+anything that a non-disabled person can do. </p>
+    <p align="center" >I also got inspired to design this website because I know a lot of families want 
+to do different things that they think others in their family (with different certain 
+abilities) cannot do. Still, people with abilities would like the 
+chance/choice to try these activities.</p>​
+  </article>
+</section>
+
+
+</body>
+</html>
+
