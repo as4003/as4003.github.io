@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Sports</title>
+<meta charset="utf-8">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-color: black;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 25%;
+  font-size: 20px;
+  height: 1000px; /* only for demonstration, should be removed */
+  background: #e69597;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+  a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: green;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+  float: left;
+  text-align: center;
+  width: 40%;
+  padding: 10px;
+  height: 150px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: tabler
+  clear: both;
+}
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: 500%;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <a href="home-boundlesscapabilities.html"><img src="logo.jpg" style = "float:right;width:125px;height:125px"></a>
+  <h2>SPORTS: BOUNDLESS CAPABILITIES</h2>
+
+</header>
+
+<section>
+  <nav>
+    <ul>
+    
+      <li><a style="text-decoration:none;" href="home-boundlesscapabilities.html">- HOME </a></li>
+<br>
+	<li><a style="text-decoration:none;" href="tips_advice-boundlesscapabilities.html">- TIPS & ADVICE </a> </li>
+<br>
+	<li><a style="text-decoration:none;" href="holidays-boundlesscapabilities.html">- HOLIDAYS </a></li>
+<br>
+	<li><a style="text-decoration:none;" href="experiences-boundlesscapabilities.html">- EXPERIENCES </a></li>
+<br><ul>
+    <li><a style="text-decoration:none;" href="schools-experiences-boundlesscapabilities.html">-- Schools </a></li>
+    <li><a style="text-decoration:none;" href="sports-experiences-boundlesscapabilities.html">-- Sports </a></li>
+	<br>
+	<ul>
+	<li><a style="text-decoration:none;" href="curling-sports-experiences-boundlesscapabilities.html">----- Curling </a></li>
+    <li><a style="text-decoration:none;" href="boccia-sports-experiences-boundlesscapabilities.html">----- Boccia </a></li>
+    <li><a style="text-decoration:none;" href="basketball-sports-experiences-boundlesscapabilities.html">----- Basketball </a></li>
+    <li><a style="text-decoration:none;" href="swimming-sports-experiences-boundlesscapabilities.html">----- Swimming </a></li>
+	<li><a style="text-decoration:none;" href="gallery-sports-experiences-boundlesscapabilities.html">----- Gallery </a></li>
+	</ul>
+	<br>
+    <li><a style="text-decoration:none;" href="ncs-experiences-boundlesscapabilities.html">-- NCS </a></li>
+    <li><a style="text-decoration:none;" href="dofe-experiences-boundlesscapabilities.html">-- DofE </a></li>
+    <li><a style="text-decoration:none;" href="thames_bridges_trek-experiences-boundlesscapabilities.html">-- Thames Bridges Trek </a></li>
+    <li><a style="text-decoration:none;" href="lessons-experiences-boundlesscapabilities.html">-- Lessons </a></li>
+	</ul>
+	<br>
+	<li><a style="text-decoration:none;" href="gallery-boundlesscapabilities.html">- GALLERY </a></li>
+<br>
+	<li><a style="text-decoration:none;" href="about_me-boundlesscapabilities.html">- ABOUT ME </a></li>
+    </ul>
+  </nav>
+
+<div class="row">
+<div class="column" style="background-color:#FFB6C1;float:right">
+    <h2><a href="curling-sports-experiences-boundlesscapabilities.html"> CURLING <br> <br> SPORTS </a></h2>
+  </div>
+  <div class="column" style="background-color:#F8C8DC;float:left">
+    <h2><a href="boccia-sports-experiences-boundlesscapabilities.html"> BOCCIA <br> <br> SPORTS </a></h2>
+  </div>
+   <div class="column" style="background-color:#FFB6C1;float:right">
+    <h2><a href="basketball-sports-experiences-boundlesscapabilities.html"> BASKETBALL <br> <br> SPORTS </a></h2>
+  </div>
+   <div class="column" style="background-color:#F8C8DC;float:left">
+    <h2><a href="swimming-sports-experiences-boundlesscapabilities.html"> SWIMMING <br> <br> SPORTS </a></h2>
+  </div>
+   <div class="column" style="background-color:#FFB6C1;float:right">
+    <h2><a href="gallery-sports-experiences-boundlesscapabilities.html"> GALLERY <br> <br> SPORTS </a></h2>
+  </div>
+    <img src="gallery.jpg" style = "float:left;width:386px;height:150px">
+  
+</div>
+
+</body>
+</html>
