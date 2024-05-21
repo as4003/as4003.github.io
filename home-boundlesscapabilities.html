@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Boundless Capabilities</title>
+<meta charset="utf-8">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-color: black;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 75%;
+  background-color: #ffffff;
+  height: 1100px; /* only for demonstration, should be removed */
+}
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 25%;
+  font-size: 20px;
+  height: 1100px; /* only for demonstration, should be removed */
+  background: #E7C2F3;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+  
+  a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color:green;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  article {
+    width: 100%;
+    height: 500%;
+  }
+}
+.slogan {
+padding:50px;
+display: block;  
+background-image: url('slogan.jpg');
+font-color: white;
+ text-align: center;
+
+}
+.tipsAndAdvice {
+padding:50px;
+display: block;  
+background-image: url('tipsadvice.jpg');
+font-color: black;
+ text-align: center;
+}
+.holidays {
+padding:50px;
+display: block;  
+background-image: url('holiday.jpeg');
+font-color: black;
+ text-align: center;
+}
+.experiences {
+padding:50px;
+display: block;  
+background-image: url('experiences.png');
+font-color: black;
+ text-align: center;
+}
+.gallery {
+  padding:50px;
+display: block;  
+background-image: url('gallery.jpg');
+font-color: black;
+ text-align: center;
+}
+.aboutMe {
+padding:50px;
+display: block;  
+background-image: url('about.jpg');
+font-color: black;
+ text-align: center;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <a href="home-boundlesscapabilities.html"><img src="logo.jpg" style = "float:right;width:125px;height:125px"></a>
+  <h2>BOUNDLESS CAPABILITIES</h2>
+
+</header>
+
+<section>
+   <nav>
+    <ul>
+   
+      <li><a style="text-decoration:none;" href="home-boundlesscapabilities.html">- HOME </a></li>
+<br>
+	<li><a style="text-decoration:none;" href="tips_advice-boundlesscapabilities.html">- TIPS & ADVICE </a> </li>
+<br>
+	<li><a style="text-decoration:none;" href="holidays-boundlesscapabilities.html">- HOLIDAYS </a></li>
+<br>
+	<li><a style="text-decoration:none;" href="experiences-boundlesscapabilities.html">- EXPERIENCES </a></li>
+	<br>
+	<li><a style="text-decoration:none;" href="gallery-boundlesscapabilities.html">- GALLERY </a></li>
+<br>
+	<li><a style="text-decoration:none;" href="about_me-boundlesscapabilities.html">- ABOUT ME </a></li>
+    </ul>
+  </nav>
+  <article>
+<div class="slogan">
+ <font color = "#FFFFFF"> <strong><h2> <a href="quotes-boundlesscapabilities.html">DESIGN YOUR LIFE TO HOW IT FITS YOU</h2> </strong></font>
+</div>  
+<div class="tipsAndAdvice">
+<h2> <a href="tips_advice-boundlesscapabilities.html"> TIPS & ADVICE </a></h2>
+</div>
+<div class="holidays">
+<h2><a href="holidays-boundlesscapabilities.html"> HOLIDAYS </a></h2>
+</div> 
+<div class="experiences">
+<h2><a href="experiences-boundlesscapabilities.html"> EXPERIENCES </a></h2>
+</div>
+<div class="gallery">
+<h2><a href="gallery-boundlesscapabilities.html"> GALLERY </a></h2>
+</div>
+<div class="aboutMe">
+<h2><a href="about_me-boundlesscapabilities.html"> ABOUT ME </a></h2>
+</div>
+</article>
+</section>
+
+
+</body>
+</html>
+
