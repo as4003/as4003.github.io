@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Tips & Advice</title>
+<meta charset="utf-8">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-color: black;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 25%;
+  font-size: 20px;
+  height: 900px; /* only for demonstration, should be removed */
+  background:  #95b8d1;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+  a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: green;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+  float: left;
+  text-align: center;
+  width: 40%;
+  padding: 10px;
+  height: 150px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: 500%;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <a href="home-boundlesscapabilities.html"><img src="logo.jpg" style = "float:right;width:125px;height:125px"></a>
+  <h2>TIPS & ADVICE: BOUNDLESS CAPABILITIES</h2>
+
+</header>
+
+<section>
+  <nav>
+    <ul>
+    
+      <li><a style="text-decoration:none;" href="home-boundlesscapabilities.html">- HOME </a></li>
+<br>
+	<li><a style="text-decoration:none;" href="tips_advice-boundlesscapabilities.html">- TIPS & ADVICE </a> </li>
+	<br>
+   <ul> 
+	 <li><a style="text-decoration:none;" href="climbing-tips_advice-boundlesscapabilities.html">-- Climbing </a></li>
+	<li><a style="text-decoration:none;" href="camping-tips_advice-boundlesscapabilities.html">-- Camping </a> </li>
+	<li><a style="text-decoration:none;" href="goingonholiday-tips_advice-boundlesscapabilities.html">-- Go On Holidays </a></li>
+	<li><a style="text-decoration:none;" href="avoidfalling-tips_advice-boundlesscapabilities.html">-- Avoid Falling </a></li>
+	<li><a style="text-decoration:none;" href="dreaming-tips_advice-boundlesscapabilities.html">-- Dreaming </a></li>
+    </ul>
+<br>
+	<li><a style="text-decoration:none;" href="holidays-boundlesscapabilities.html">- HOLIDAYS </a></li>
+<br>
+	<li><a style="text-decoration:none;" href="experiences-boundlesscapabilities.html">- EXPERIENCES </a></li>
+<br>
+	<li><a style="text-decoration:none;" href="gallery-boundlesscapabilities.html">- GALLERY </a></li>
+<br>
+	<li><a style="text-decoration:none;" href="about_me-boundlesscapabilities.html">- ABOUT ME </a></li>
+    </ul>
+  </nav>
+
+<div class="row">
+<div class="column" style="background-color:#A2E4B8;float:right">
+    <h2> <a href="climbing-tips_advice-boundlesscapabilities.html"> TIPS & ADVICE <br><br> FOR CLIMBING </a></h2>
+  </div>
+<img src="climbing.jpg" style = "float:left;width:386px;height:150px">
+  <div class="column" style="background-color:#7FEB7F;float:left">
+    <h2><a href="camping-tips_advice-boundlesscapabilities.html"> TIPS & ADVICE <br><br> FOR CAMPING </a></h2>
+  </div>
+<img src="camping.jpg" style = "float:right;width:386px;height:150px">
+  <div class="column" style="background-color:#A2E4B8;float:right">
+    <h2><a href="goingonholiday-tips_advice-boundlesscapabilities.html"> TIPS & ADVICE <br><br> FOR GOING ON HOLIDAY </a></h2>
+  </div>
+<img src="holiday.jpg" style = "float:left;width:386px;height:150px">
+
+ <div class="column" style="background-color:#7FEB7F;float:left">
+    <h2><a href="avoidfalling-tips_advice-boundlesscapabilities.html"> TIPS & ADVICE <br><br> TO AVOID FALLING </a> </h2>
+  </div>
+  <img src="falling.jpg" style = "float:right;width:386px;height:150px">
+  <div class="column" style="background-color:#A2E4B8;float:right">
+    <h2><a href="dreaming-tips_advice-boundlesscapabilities.html"> TIPS & ADVICE <br><br> FOR DREAMING </a></h2>
+  </div> 
+  <img src="dream.jpg" style = "float:left;width:386px;height:150px">
+</div>
+
+</body>
+</html>
