@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Rome Gallery</title>
+<meta charset="utf-8">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-color: black;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 25%;
+  font-size: 20px;
+  height: 900px; /* only for demonstration, should be removed */
+  background: #B6D0E2;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}  
+  a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: green;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: tabler
+  clear: both;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: 500%;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <a href="home-boundlesscapabilities.html"><img src="logo.jpg" style = "float:right;width:125px;height:125px"></a>
+  <h2>GALLERY - ROME: BOUNDLESS CAPABILITIES</h2>
+
+</header>
+
+<section>
+  <nav>
+    <ul>
+    
+    
+      <li><a style="text-decoration:none;" href="home-boundlesscapabilities.html">- HOME </a></li>
+<br>
+	<li><a style="text-decoration:none;" href="tips_advice-boundlesscapabilities.html">- TIPS & ADVICE </a> </li>
+<br>
+	<li><a style="text-decoration:none;" href="holidays-boundlesscapabilities.html">- HOLIDAYS </a></li>
+	<br>
+  <ul> 
+	 <li><a style="text-decoration:none;" href="paris-holidays-boundlesscapabilities.html">-- Paris </a></li>
+	<li><a style="text-decoration:none;" href="kenya-holidays-boundlesscapabilities.html">-- Kenya </a> </li>
+	<li><a style="text-decoration:none;" href="snowdonia-holidays-boundlesscapabilities.html">-- Snowdonia </a></li>
+	<li><a style="text-decoration:none;" href="valencia-holidays-boundlesscapabilities.html">-- Valencia </a></li>
+	<li><a style="text-decoration:none;" href="rome-holidays-boundlesscapabilities.html">-- Rome </a></li>
+	 	<br>
+	<ul>
+	<li><a style="text-decoration:none;" href="itinerary-rome-holidays-boundlesscapabilities.html">----- Itinerary </a></li>
+    <li><a style="text-decoration:none;" href="gallery-rome-holidays-boundlesscapabilities.html">----- Gallery </a></li>
+    <li><a style="text-decoration:none;" href="blog-rome-holidays-boundlesscapabilities.html">----- Blog </a></li>
+	</ul>
+	<br>
+		 <li><a style="text-decoration:none;" href="tenerife-holidays-boundlesscapabilities.html">-- Tenerife </a></li>
+	<li><a style="text-decoration:none;" href="turkana-holidays-boundlesscapabilities.html">-- Turkana </a> </li>
+	<li><a style="text-decoration:none;" href="lourdes-holidays-boundlesscapabilities.html">-- Lourdes </a></li>
+	<li><a style="text-decoration:none;" href="greece-holidays-boundlesscapabilities.html">-- Greece </a></li>
+	<li><a style="text-decoration:none;" href="thailand-holidays-boundlesscapabilities.html">-- Thailand </a></li>
+		 <li><a style="text-decoration:none;" href="mount_kenya-holidays-boundlesscapabilities.html">-- Mount Kenya </a></li>
+	<li><a style="text-decoration:none;" href="turkey-holidays-boundlesscapabilities.html">-- Turkey </a> </li>
+	<li><a style="text-decoration:none;" href="palitana-holidays-boundlesscapabilities.html">-- Palitana </a></li>
+	<li><a style="text-decoration:none;" href="south_africa-holidays-boundlesscapabilities.html">-- South Africa </a></li>
+	<li><a style="text-decoration:none;" href="benarn_bennevis-holidays-boundlesscapabilities.html">-- Ben Arn & Ben Nevis </a></li>
+
+    </ul>
+<br>
+	<li><a style="text-decoration:none;" href="experiences-boundlesscapabilities.html">- EXPERIENCES </a></li>
+<br>
+	<li><a style="text-decoration:none;" href="gallery-boundlesscapabilities.html">- GALLERY </a></li>
+<br>
+	<li><a style="text-decoration:none;" href="about_me-boundlesscapabilities.html">- ABOUT ME </a></li>
+    </ul>
+  </nav>
+
+<div class="row">
+<div class="gallery">
+  <a href="r1.jpg">
+    <img src="r1.jpg" width="600" height="400">
+  </a>
+</div>
+
+<div class="gallery">
+  <a href="r2.jpg">
+    <img src="r2.jpg" width="600" height="400">
+  </a> </div>
+
+<div class="gallery">
+  <a href="r3.jpg">
+    <img src="r3.jpg" width="600" height="400">
+  </a> </div>
+
+<div class="gallery">
+  <a href="r5.jpg">
+    <img src="r5.jpg" width="600" height="400">
+  </a>
+</div>
+
+<div class="gallery">
+  <a href="r6.jpg">
+    <img src="r6.jpg" width="600" height="400">
+  </a>
+</div>
+
+<div class="gallery">
+  <a href="r4.jpg">
+    <img src="r4.jpg" width="600" height="400">
+  </a>
+</div>
+
+<div class="gallery">
+  <a href="r7.jpg">
+    <img src="r7.jpg" width="600" height="400">
+  </a>
+</div>
+
+<div class="gallery">
+  <a href="r8.jpg">
+    <img src="r8.jpg" width="600" height="400">
+  </a>
+</div>
+
+<div class="gallery">
+  <a href="r9.jpg">
+    <img src="r9.jpg" width="600" height="400">
+  </a>
+</div>
+
+<div class="gallery">
+  <a href="rome.jpg">
+    <img src="rome.jpg" width="600" height="400">
+  </a>
+</div>
+</body>
+</html>
