@@ -29,7 +29,7 @@ nav {
   width: 25%;
   font-size: 20px;
   height: 900px; /* only for demonstration, should be removed */
-  background: #e69597;
+  background: #ffe9ec;
   padding: 20px;
 }
 
@@ -39,6 +39,16 @@ nav ul {
   padding: 0;
 }
   
+
+article {
+  align="center";
+  float: left;
+  padding: 20px;
+  width: 75%;
+  font-color: black;
+  font-size: 20px;
+  background-color: #ffffff;
+}
   a:hover {
   color: red;
   background-color: transparent;
@@ -46,9 +56,9 @@ nav ul {
 }
 a:active {
   color: green;
-  background-color: transparent;
   text-decoration: underline;
 }
+
 
 /* Clear floats after the columns */
 section::after {
@@ -56,20 +66,28 @@ section::after {
   display: table;
   clear: both;
 }
+
 .column {
   float: left;
   text-align: center;
-  width: 40%;
-  padding: 10px;
-  height: 150px; /* Should be removed. Only for demonstration */
+  width: 50%;
+  padding: 5px;
+  height: 160px; /* Should be removed. Only for demonstration */
 }
-
+.column1 {
+  float: left;
+  text-align: center;
+  width: 20%;
+  padding: 10px;
+  height: 160px; /* Should be removed. Only for demonstration */
+}
 /* Clear floats after the columns */
 .row:after {
   content: "";
   display: tabler
   clear: both;
 }
+
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media (max-width: 600px) {
   nav, article {
@@ -77,6 +95,7 @@ section::after {
     height: 500%;
   }
 }
+
 </style>
 </head>
 <body>
@@ -98,10 +117,7 @@ section::after {
 <br>
 	<li><a style="text-decoration:none;" href="experiences-boundlesscapabilities.html">- EXPERIENCES </a></li>
 <br><ul>
-    <li><a style="text-decoration:none;" href="schools-experiences-boundlesscapabilities.html">-- Schools </a></li>
-    <li><a style="text-decoration:none;" href="sports-experiences-boundlesscapabilities.html">-- Sports </a></li>
-    <li><a style="text-decoration:none;" href="ncs-experiences-boundlesscapabilities.html">-- NCS </a></li>
-    <li><a style="text-decoration:none;" href="dofe-experiences-boundlesscapabilities.html">-- DofE </a></li>
+	<li><a style="text-decoration:none;" href="dofe-experiences-boundlesscapabilities.html">-- DofE </a></li>
     <br>
 	<ul>
 	<li><a style="text-decoration:none;" href="bronze-dofe-experiences-boundlesscapabilities.html">----- Bronze </a></li>
@@ -111,8 +127,12 @@ section::after {
 	<li><a style="text-decoration:none;" href="blog-dofe-experiences-boundlesscapabilities.html">----- Blog </a></li>
 	</ul>
 	<br>
-	<li><a style="text-decoration:none;" href="thames_bridges_trek-experiences-boundlesscapabilities.html">-- Thames Bridges Trek </a></li>
     <li><a style="text-decoration:none;" href="lessons-experiences-boundlesscapabilities.html">-- Lessons </a></li>
+    <li><a style="text-decoration:none;" href="ncs-experiences-boundlesscapabilities.html">-- NCS </a></li>
+    <li><a style="text-decoration:none;" href="schools-experiences-boundlesscapabilities.html">-- Schools </a></li>
+    <li><a style="text-decoration:none;" href="sports-experiences-boundlesscapabilities.html">-- Sports </a></li>
+
+	<li><a style="text-decoration:none;" href="thames_bridges_trek-experiences-boundlesscapabilities.html">-- Thames Bridges Trek </a></li>
 	</ul>
 	<br>
 	<li><a style="text-decoration:none;" href="gallery-boundlesscapabilities.html">- GALLERY </a></li>
@@ -121,24 +141,31 @@ section::after {
     </ul>
   </nav>
 
+<article>
+
+
+<h3> My Adventure: </h3>
 <div class="row">
-<div class="column" style="background-color:#FFB6C1;float:right">
-    <h2><a href="bronze-dofe-experiences-boundlesscapabilities.html"> BRONZE <br> <br> DOFE </a></h2>
+<div class="column" style="background-color:#F3CFC6;float:right">
+    <h3><a href="bronze-dofe-experiences-boundlesscapabilities.html"> BRONZE <br> <br> DOFE </a></h3>
   </div>
-  <div class="column" style="background-color:#F8C8DC;float:left">
-    <h2><a href="silver-dofe-experiences-boundlesscapabilities.html"> SILVER <br> <br> DOFE </a></h2>
+  <div class="column" style="background-color:#FFF5EE;float:left">
+    <h3><a href="silver-dofe-experiences-boundlesscapabilities.html"> SILVER <br> <br> DOFE </a></h3>
   </div>
   <div class="column" style="background-color:#FFB6C1;float:right">
-    <h2><a href="gold-dofe-experiences-boundlesscapabilities.html"> GOLD <br> <br> DOFE </a></h2>
+    <h3><a href="gold-dofe-experiences-boundlesscapabilities.html"> GOLD <br> <br> DOFE </a></h3>
   </div>
   <div class="column" style="background-color:#F8C8DC;float:left">
-    <h2><a href="gallery-dofe-experiences-boundlesscapabilities.html"> GALLERY <br> <br> DOFE </a></h2>
+    <h3><a href="gallery-dofe-experiences-boundlesscapabilities.html"> GALLERY <br> <br> DOFE </a></h3>
   </div>
-    <img src="gallery.jpg" style = "float:right;width:386px;height:150px">
-   <div class="column" style="background-color:#FFB6C1;float:right">
-    <h2><a href="blog-dofe-experiences-boundlesscapabilities.html"> BLOG <br> <br> DOFE </a></h2>
+	
+  <div class="column1" style="background-color:#ffffff;float:left">
+    <h5></h5>
+  </div>
+<div class="column" style="background-color:#E0BFB8;float:left">
+    <h3><a href="blog-dofe-experiences-boundlesscapabilities.html"> BLOG <br> <br> DOFE </a></h3>
   </div>
 </div>
-
 </body>
 </html>
+
