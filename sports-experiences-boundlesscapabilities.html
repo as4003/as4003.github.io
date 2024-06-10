@@ -28,8 +28,8 @@ nav {
   float: left;
   width: 25%;
   font-size: 20px;
-  height: 1000px; /* only for demonstration, should be removed */
-  background: #e69597;
+  height: 2200px; /* only for demonstration, should be removed */
+  background: #ffe9ec;
   padding: 20px;
 }
 
@@ -38,6 +38,17 @@ nav ul {
   list-style-type: none;
   padding: 0;
 }
+  
+
+article {
+  align="center";
+  float: left;
+  padding: 20px;
+  width: 75%;
+  font-color: black;
+  font-size: 20px;
+  background-color: #ffffff;
+}
   a:hover {
   color: red;
   background-color: transparent;
@@ -45,7 +56,6 @@ nav ul {
 }
 a:active {
   color: green;
-  background-color: transparent;
   text-decoration: underline;
 }
 
@@ -56,20 +66,28 @@ section::after {
   display: table;
   clear: both;
 }
+
 .column {
   float: left;
   text-align: center;
-  width: 40%;
-  padding: 10px;
-  height: 150px; /* Should be removed. Only for demonstration */
+  width: 50%;
+  padding: 5px;
+  height: 160px; /* Should be removed. Only for demonstration */
 }
-
+.column1 {
+  float: left;
+  text-align: center;
+  width: 20%;
+  padding: 10px;
+  height: 160px; /* Should be removed. Only for demonstration */
+}
 /* Clear floats after the columns */
 .row:after {
   content: "";
   display: tabler
   clear: both;
 }
+
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media (max-width: 600px) {
   nav, article {
@@ -88,9 +106,8 @@ section::after {
 </header>
 
 <section>
-  <nav>
+ <nav>
     <ul>
-    
       <li><a style="text-decoration:none;" href="home-boundlesscapabilities.html">- HOME </a></li>
 <br>
 	<li><a style="text-decoration:none;" href="tips_advice-boundlesscapabilities.html">- TIPS & ADVICE </a> </li>
@@ -99,6 +116,9 @@ section::after {
 <br>
 	<li><a style="text-decoration:none;" href="experiences-boundlesscapabilities.html">- EXPERIENCES </a></li>
 <br><ul>
+	<li><a style="text-decoration:none;" href="dofe-experiences-boundlesscapabilities.html">-- DofE </a></li>
+    <li><a style="text-decoration:none;" href="lessons-experiences-boundlesscapabilities.html">-- Lessons </a></li>
+    <li><a style="text-decoration:none;" href="ncs-experiences-boundlesscapabilities.html">-- NCS </a></li>
     <li><a style="text-decoration:none;" href="schools-experiences-boundlesscapabilities.html">-- Schools </a></li>
     <li><a style="text-decoration:none;" href="sports-experiences-boundlesscapabilities.html">-- Sports </a></li>
 	<br>
@@ -110,10 +130,7 @@ section::after {
 	<li><a style="text-decoration:none;" href="gallery-sports-experiences-boundlesscapabilities.html">----- Gallery </a></li>
 	</ul>
 	<br>
-    <li><a style="text-decoration:none;" href="ncs-experiences-boundlesscapabilities.html">-- NCS </a></li>
-    <li><a style="text-decoration:none;" href="dofe-experiences-boundlesscapabilities.html">-- DofE </a></li>
-    <li><a style="text-decoration:none;" href="thames_bridges_trek-experiences-boundlesscapabilities.html">-- Thames Bridges Trek </a></li>
-    <li><a style="text-decoration:none;" href="lessons-experiences-boundlesscapabilities.html">-- Lessons </a></li>
+	<li><a style="text-decoration:none;" href="thames_bridges_trek-experiences-boundlesscapabilities.html">-- Thames Bridges Trek </a></li>
 	</ul>
 	<br>
 	<li><a style="text-decoration:none;" href="gallery-boundlesscapabilities.html">- GALLERY </a></li>
@@ -122,25 +139,42 @@ section::after {
     </ul>
   </nav>
 
+<article>
+
+
+<h2>Preparation For Sport Activities:</h2>
+<br>
+<ul>
+<li> Research the sport activity, to take part in the right choice of sport. </li>
+<li> Ensure you are physically ready for the sport, by doing warm-up exercises before. </li>
+<li> Collect the required equipment to do the sport accurately. </li>
+<li> The supervisor, providing the activity should be able to make the sport accessible, according to your requirements. </li>
+<li> The sport equipment should be easy to use, for many people to do. </li>
+</ul>
+
+<br>
+
 <div class="row">
-<div class="column" style="background-color:#FFB6C1;float:right">
+<div class="column" style="background-color:#FFF5EE;float:left">
     <h2><a href="curling-sports-experiences-boundlesscapabilities.html"> CURLING <br> <br> SPORTS </a></h2>
   </div>
-  <div class="column" style="background-color:#F8C8DC;float:left">
+  <div class="column" style="background-color:#F3CFC6;float:right">
     <h2><a href="boccia-sports-experiences-boundlesscapabilities.html"> BOCCIA <br> <br> SPORTS </a></h2>
   </div>
-   <div class="column" style="background-color:#FFB6C1;float:right">
+   <div class="column" style="background-color:#F8C8DC;float:left">
     <h2><a href="basketball-sports-experiences-boundlesscapabilities.html"> BASKETBALL <br> <br> SPORTS </a></h2>
   </div>
-   <div class="column" style="background-color:#F8C8DC;float:left">
+   <div class="column" style="background-color:#FFB6C1;float:right">
     <h2><a href="swimming-sports-experiences-boundlesscapabilities.html"> SWIMMING <br> <br> SPORTS </a></h2>
   </div>
-   <div class="column" style="background-color:#FFB6C1;float:right">
+  <div class="column1" style="background-color:#ffffff;float:left">
+    <h5></h5>
+  </div>
+   <div class="column" style="background-color:#E0BFB8;float:left">
     <h2><a href="gallery-sports-experiences-boundlesscapabilities.html"> GALLERY <br> <br> SPORTS </a></h2>
   </div>
-    <img src="gallery.jpg" style = "float:left;width:386px;height:150px">
-  
 </div>
-
+</article>
+</section>
 </body>
 </html>
