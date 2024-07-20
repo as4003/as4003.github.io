@@ -30,7 +30,24 @@ nav {
   width: 25%;
   font-size: 20px;
     height: 23700px;
-  background: 	#FFB6C1;
+  background: 	;
+  padding: 20px;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 75%;
+  background-color: #ffffff;
+  height: 1100px; /* only for demonstration, should be removed */
+}
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 25%;
+  font-size: 20px;
+  height: 1450px; /* only for demonstration, should be removed */
+  background: #FFB6C1;
   padding: 20px;
 }
 
@@ -50,6 +67,7 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
+
 /* Clear floats after the columns */
 section::after {
   content: "";
@@ -57,24 +75,28 @@ section::after {
   clear: both;
 }
 
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: tabler
-  clear: both;
-}
-div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 200px;
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  article {
+    width: 100%;
+    height: 500%;
+  }
 }
 
-div.gallery:hover {
-  border: 1px solid #777;
+.holidays {
+padding:50px;
+display: block;  
+background-image: url('holiday.JPEG');
+font-color: black;
+ text-align: center;
 }
-
+.experiences {
+padding:50px;
+display: block;  
+background-image: url('experiences.png');
+font-color: black;
+ text-align: center;
+}
 div.gallery img {
   width: 100%;
   height: auto;
