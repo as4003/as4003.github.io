@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Holiday Gallery</title>
+<meta charset="utf-8">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-color: black;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 25%;
+  font-size: 20px;
+  height: 2500px; /* only for demonstration, should be removed */
+  background: #adf7b6;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+  
+  a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color:green;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+  float: left;
+  text-align: center;
+  width: 37.5%;
+  padding: 10px;
+  height: 150px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: tabler
+  clear: both;
+}
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: 500%;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+   <a href="home-boundlesscapabilities.html"><img src="logo.jpg" style = "float:right;width:150px;height:150px"></a>
+	<h2>HOLIDAYS - GALLERY: <br> BOUNDLESS CAPABILITIES</h2>
+
+</header>
+
+<section>
+  <nav>
+    <ul>
+    
+      <li><a style="text-decoration:none;" href="home-boundlesscapabilities.html">- HOME </a></li>
+<br>
+	<li><a style="text-decoration:none;" href="tips_advice-boundlesscapabilities.html">- TIPS & ADVICE </a> </li>
+<br>
+	<li><a style="text-decoration:none;" href="holidays-boundlesscapabilities.html">- HOLIDAYS </a></li>
+	<br>
+<ul> 
+	
+	<li><a style="text-decoration:none;" href="lourdes-holidays-boundlesscapabilities.html">-- France, Lourdes </a></li>
+	 <li><a style="text-decoration:none;" href="paris-holidays-boundlesscapabilities.html">-- France, Paris </a></li>
+	<li><a style="text-decoration:none;" href="greece-holidays-boundlesscapabilities.html">-- Greece, Athens </a></li>
+	<li><a style="text-decoration:none;" href="palitana-holidays-boundlesscapabilities.html">-- India, Palitana </a></li>
+	<li><a style="text-decoration:none;" href="rome-holidays-boundlesscapabilities.html">-- Italy, Rome </a></li>
+	<li><a style="text-decoration:none;" href="kenya-holidays-boundlesscapabilities.html">-- Kenya </a> </li>
+	<li><a style="text-decoration:none;" href="mount_kenya-holidays-boundlesscapabilities.html">-- Kenya, Mount Kenya </a></li>
+	<li><a style="text-decoration:none;" href="turkana-holidays-boundlesscapabilities.html">-- Kenya, Turkana </a> </li>
+	<li><a style="text-decoration:none;" href="benarn_bennevis-holidays-boundlesscapabilities.html">-- Scotland, Ben Arn & Nevis </a></li>
+        <li><a style="text-decoration:none;" href="south_africa-holidays-boundlesscapabilities.html">-- South Africa </a></li>
+	<li><a style="text-decoration:none;" href="tenerife-holidays-boundlesscapabilities.html">-- Spain, Tenerife </a></li>
+	<li><a style="text-decoration:none;" href="valencia-holidays-boundlesscapabilities.html">-- Spain, Valencia </a></li>
+	<li><a style="text-decoration:none;" href="thailand-holidays-boundlesscapabilities.html">-- Thailand </a></li>
+	<li><a style="text-decoration:none;" href="turkey-holidays-boundlesscapabilities.html">-- Turkey </a> </li>
+	<li><a style="text-decoration:none;" href="snowdonia-holidays-boundlesscapabilities.html">-- Wales, Snowdonia </a></li>
+	</ul>
+<br>
+	<li><a style="text-decoration:none;" href="experiences-boundlesscapabilities.html">- EXPERIENCES </a></li>
+<br>
+	<li><a style="text-decoration:none;" href="gallery-boundlesscapabilities.html">- GALLERY </a></li>
+<br>
+	<li><a style="text-decoration:none;" href="about_me-boundlesscapabilities.html">- ABOUT ME </a></li>
+    </ul>
+  </nav>
+
+<div class="row">
+<div class="column" style="background-color:#D8BFD8;float:right">
+    <h2><a href="lourdes-holidays-boundlesscapabilities.html"> FRANCE, LOURDES </a></h2>
+    <p>Lourdes, France for a week with some friends and a couple of teachers, without my family.</p>
+  </div>
+<img src="france.jpg" style = "float:left;width:37.5%;height:150px">
+<div class="column" style="background-color:#B6D0E2;float:left">
+    <h2><a href="paris-holidays-boundlesscapabilities.html"> FRANCE, PARIS </a></h2>
+    <p>Paris, France, with my mum.</p>
+  </div>
+  <img src="p5.jpg" style = "float:right;width:37.5%;height:150px"> 
+  <div class="column" style="background-color:#D8BFD8;float:right">
+    <h2><a href="greece-holidays-boundlesscapabilities.html"> GREECE, ATHENS </a></h2>
+    <p>Athens and Crete in Greece, with friends & family.</p>
+  </div>
+<img src="g10.jpg" style = "float:left;width:37.5%;height:150px">
+  <div class="column" style="background-color:#B6D0E2;float:left">
+    <h2> <a href="palitana-holidays-boundlesscapabilities.html"> INDIA, PALITANA </a></h2>
+    <p>India, with my grandmother and family, whilst climbing the Palitana with my mobility issues.</p>
+  </div>
+  <img src="i13.JPG" style = "float:right;width:37.5%;height:150px">
+  <div class="column" style="background-color:#D8BFD8;float:right">
+    <h2><a href="rome-holidays-boundlesscapabilities.html"> ITALY, ROME </a></h2>
+    <p>Italy, Rome, with my parents, while using a wheelchair.</p>
+  </div>
+<img src="rome.jpg" style = "float:left;width:37.5%;height:150px">
+
+  <div class="column" style="background-color:#B6D0E2;float:left">
+    <h2><a href="kenya-holidays-boundlesscapabilities.html"> KENYA </a></h2>
+    <p>Kenya, with my family going to Maasai Mara (on safari).</p>
+  </div>
+<img src="k36.jpg" style = "float:right;width:37.5%;height:150px">
+<div class="column" style="background-color:#D8BFD8;float:right">
+    <h2><a href="mount_kenya-holidays-boundlesscapabilities.html"> KENYA, MOUNT KENYA </a> </h2>
+    <p>Kenya, with my family and friends, while they went climbing, I stayed with a few friends.</p>
+  </div>
+<img src="mk1.JPG" style = "float:left;width:37.5%;height:150px">
+	<div class="column" style="background-color:#B6D0E2;float:left">
+    <h2><a href="turkana-holidays-boundlesscapabilities.html"> KENYA, TURKANA </a></h2>
+    <p>Turkana, Kenya, with my family and friends.</p>
+</div>
+<img src="turkana.jpg" style = "float:right;width:37.5%;height:150px">
+  <div class="column" style="background-color:#D8BFD8;float:right">
+    <h2><a href="benarn_bennevis-holidays-boundlesscapabilities.html"> SCOTLAND, BEN ARN & BEN NEVIS </a></h2>
+    <p>Scotland, with my grandparents and family in the cottage.</p>
+  </div>
+  <img src="bn3.jpg" style = "float:left;width:37.5%;height:150px">
+  <div class="column" style="background-color:#B6D0E2;float:left">
+    <h2> <a href="south_africa-holidays-boundlesscapabilities.html"> SOUTH AFRICA </a></h2>
+    <p>South Africa, with my friends and family.</p>
+  </div>
+  <img src="sa10.JPG" style = "float:right;width:37.5%;height:150px">
+  <div class="column" style="background-color:#D8BFD8;float:right">
+    <h2><a href="tenerife-holidays-boundlesscapabilities.html"> SPAIN, TENERIFE </a></h2>
+    <p>Tenerife, with my parents and brothers, and the use of my walker.</p>
+  </div>
+<img src="te1.JPG" style = "float:left;width:37.5%;height:150px">
+  <div class="column" style="background-color:#B6D0E2;float:left">
+    <h2><a href="valencia-holidays-boundlesscapabilities.html"> SPAIN, VALENCIA </a></h2>
+    <p>Valencia, Spain, with my 2 brothers and with using my wheelchair.</p>
+  </div>
+<img src="valencia.jpg" style = "float:right;width:37.5%;height:150px">
+<div class="column" style="background-color:#D8BFD8;float:right">
+    <h2><a href="thailand-holidays-boundlesscapabilities.html"> THAILAND </a></h2>
+    <p>Thailand with my family, and how I coped.</p>
+  </div>
+<img src="th2.jpg" style = "float:left;width:37.5%;height:150px">
+
+  <div class="column" style="background-color:#B6D0E2;float:left">
+    <h2> <a href="turkey-holidays-boundlesscapabilities.html"> TURKEY </a> </h2>
+    <p>Turkey, with my family and the ability to sightsee.</p>
+  </div>
+  <img src="tu2.jpg" style = "float:right;width:37.5%;height:150px">
+
+<div class="column" style="background-color:#D8BFD8;float:right">
+    <h2><a href="snowdonia-holidays-boundlesscapabilities.html"> WALES, SNOWDONIA </a></h2>
+    <p>Wales, with my family and how we climbed Mount Snowdonia.</p>
+  </div>
+  <img src="sn4.jpg" style = "float:left;width:37.5%;height:150px">
+
+ 
+  
+  
+
+</div>
+
+</body>
+</html>
